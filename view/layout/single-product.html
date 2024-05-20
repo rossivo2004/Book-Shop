@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/8c204d0fdf.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="assets/css/iconfont.min.css">
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <link rel="stylesheet" href="/view/layout/assets/css/cart.css">
+    <link rel="stylesheet" href="/view/layout/assets/css/login.css">
+    <link rel="stylesheet" href="/view/layout/assets/css/checkout.css">
+    <link rel="shortcut icon" href="./assets/images/logo scb.jpg" type="image/x-icon">
+    <link rel="icon" href="/view/layout/assets/images/logo-icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/helper.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Trang chủ</title>
+</head>
+
+<body>
+    <div id="main-wrapper">
+        <header class="header-transparent">
+            <div class="header">
+                <div class="header-bottom menu-right">
+                    <div class="container">
+                        <div class="row align-items-center">
+
+                            <!--Logo start-->
+                            <div class="col-lg-3 col-md-3 col-6 order-lg-1 order-md-1 order-1">
+                                <div class="logo">
+                                    <a href="index.html"><img src="/view/layout/assets/images/logo.png" width="80px"
+                                            alt="logo TG shop"></a>
+                                </div>
+                            </div>
+                            <!--Logo end-->
+
+                            <!--Menu start-->
+                            <div
+                                class="col-lg-6 col-md-6 col-12 order-lg-2 order-md-2 order-3 d-flex justify-content-center">
+                                <nav class="main-menu menu-box">
+                                    <ul class="my-0">
+                                        <li class="menu-boxs"><a href="index.html">Trang chủ</a>
+                                        </li>
+                                        <li class="menu-boxs"><a href="shop.html">Sản phẩm</a>
+                                        </li>
+                                        <li class="menu-boxs"><a href="blog.html">Bài viết</a>
+                                        </li>
+                                        <!-- <li class="menu-boxs"><a href="about.html">About Us</a></li> -->
+                                        <li class="menu-boxs"><a href="contact.html">Tra cứu</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <!--Menu end-->
+
+                            <!--Search Cart Start-->
+                            <div
+                                class="col-lg-3 col-md-3 col-6 order-lg-3 order-md-3 order-2 d-flex justify-content-end">
+                                <div class="header-user">
+                                    <a href="">
+                                        <i class="fa-solid fa-user"></i>
+                                    </a>
+                                </div>
+                                <!-- <ul class="ht-us-menu d-flex my-2">
+                                    <li class=""><a href="#">
+                                        <img src="/view/layout/assets/images/user1.png" alt="" class="avatar-user">
+                                    </a>
+                                        <ul class="ht-dropdown right">
+                                            <li><p class="name-user">Chào mừng rossivo</p></li>
+                                            <li><a href="/view/layout/my-account.html">Thông tin tài khoản</a></li>
+                                            <li><a href="">Đăng xuất</a></li>
+                                        </ul>
+                                    </li>
+                                </ul> -->
+                                <div class="header-search">
+                                    <button class="header-search-toggle"><i class="fa fa-search"></i></button>
+                                    <div class="header-search-form">
+                                        <form action="#">
+                                            <input type="text" placeholder="Nhập thông tin tiềm kiếm ...">
+                                            <button><i class="fa fa-search"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="header-cart">
+                                    <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+                                    <!--Mini Cart Dropdown Start-->
+
+                                    <!--Mini Cart Dropdown End-->
+                                </div>
+                            </div>
+                            <!--Search Cart End-->
+                        </div>
+
+                        <!--Mobile Menu start-->
+                        <div class="row">
+                            <div class="col-12 d-flex d-lg-none">
+                                <div class="mobile-menu"></div>
+                            </div>
+                        </div>
+                        <!--Mobile Menu end-->
+                    </div>
+                </div>
+            </div>
+            <div class="header-tab-mobile">
+                <div class="row justify-content-center bg-main">
+                    <img src="/view/layout/assets/images/logo2.png" alt="" class="logo-tab_mobile">
+                </div>
+                <div class="row bg-main sticky-top">
+                    <div class="col-md-12 d-flex w-100 justify-content-between  px-4 py-4 pt-0">
+                        <div class="offcanvas offcanvas-start" id="demo">
+                            <div class="offcanvas-header">
+                                <!-- <h1 class="offcanvas-title">Heading</h1> -->
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="menu-hiden">
+                                    <li><a href="">Trang chủ</a></li>
+                                    <li><a href="">Blog</a></li>
+                                    <li><a href="">Sản phẩm</a></li>
+                                    <li><a href="">Về chúng tôi</a></li>
+                                    <li><a href="">Liên hệ</a></li>
+                                </ul>
+                                <!-- <button class="btn btn-secondary" type="button">A Button</button> -->
+                            </div>
+                        </div>
+
+                        <!-- Button to open the offcanvas sidebar -->
+                        <div class="btn-open_menu__mobile">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#demo">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                        </div>
+
+                        <div class="input-search_mb">
+                            <form action="">
+                                <input type="text">
+                                <input type="submit" value="">
+                            </form>
+                        </div>
+                        <div class="control-tab_mobile">
+                            <a href=""><i class="fa-regular fa-user"></i></a>
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <div class="container-fluid">
+            <div class="container p-0">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Sản phẩm</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- Single Product Section Start -->
+        <div class="">
+            <div class="single-product-section section   pt-md-70 pt-sm-60 pb-100 pb-lg-80 pb-md-70 pb-sm-30 pb-xs-20">
+            <div class="container">
+                <div class="row bg-white p-2 mt-xs-2 pt-4 bdr-10">
+                    <div class="col-md-5 d-flex justify-content-center">
+                        <div class="img-single_product">
+                            <img src="/view/layout/assets/images/sp1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <!--Product Details Content Start-->
+                        <div class="product-details-content">
+                            
+                            <h2>Giày Bóng Đá Nike Mercurial</h2>
+                            <div class="single-product-price">
+                                <span class="price new-price">500.000<sup>đ</sup></span>
+                                
+                                <!-- <span class="regular-price">$77.00</span> -->
+                            </div>
+                            <!-- <div class="single-product-reviews">
+                                <i style="color: #febb0a;" class="fa fa-star"></i>
+                                <i style="color: #febb0a;" class="fa fa-star"></i>
+                                <i style="color: #febb0a;" class="fa fa-star"></i>
+                                <i style="color: #febb0a;" class="fa fa-star"></i>
+                                <i style="color: #febb0a;" class="fa fa-star"></i>
+                                <a style="color: #febb0a;" class="review-link" href="#">(3 lượt đánh giá)</a>
+                            </div> -->
+                            <div class="product-description">
+                                <p>Giày bóng đá Soccer Beck làm từ chất liệu tốt nhất , mang lại cho người dùng cảm giác êm chân khi trải nghiệm giày, đây là mẫu Giày Bóng Đá Nike Mercurial mới nhất của chúng tôi, mong các bạn có 1 trải nghiệm thật tốt với sản phẩm !</p>
+                            </div>
+                            <div class="single-product-quantity">
+                                <form class="add-quantity" action="#">
+                                    <div class="product-quantity">
+                                        <input value="1" type="number">
+                                    </div>
+                                    <div class="add-to-link">
+                                        <button class="product-add-btn" data-text="add to cart">thêm vào giỏ hàng</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="product-meta">
+                                <span class="posted-in">
+                                    Thể loại:
+                                    <a href="#">Giày bóng đá </a>,
+                                    <a href="#">giày đế đinh</a>
+                                </span>
+                            </div>
+                            <div class="product-meta">
+                                <span class="posted-in">
+                                    Tác giả:
+                                    <a href="#">Giày bóng đá </a>
+                                </span>
+                            </div>
+                        </div>
+                        <!--Product Details Content End-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        <!-- Single Product Section End -->
+
+        <!--Product Description Review Section Start-->
+        <div class="product-description-review-section section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 bg-white p-5 bdr-10">
+                        <div class="product-review-tab">
+                            <!--Review And Description Tab Menu Start-->
+                            <ul class="nav dec-and-review-menu">
+                                <li>
+                                    <a class="active" data-toggle="tab" href="#description">Mô tả</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="tab" href="#reviews">Đánh giá (3)</a>
+                                </li>
+                            </ul>
+                            <!--Review And Description Tab Menu End-->
+                            <!--Review And Description Tab Content Start-->
+                            <div class="tab-content product-review-content-tab" id="myTabContent-4">
+                                <div class="tab-pane fade active show" id="description">
+                                    <!-- Mô tả -->
+                                    <div class="single-product-description row">
+                                       <div class="col-4 col-sm-4 col-lg-2 d-flex justify-content-end">
+                                        <img src="/view/layout/assets/images/sp1.jpg" alt="" class="mt-img">
+                                       </div>
+                                       <div class="col-8 col-sm-8 col-lg-10">
+                                        <p class="mt-content">
+                                            - Nội dung: fdsfds <br>
+                                            - Thể loại: dsgo sgđ
+                                        </p>
+                                       </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="reviews">
+                                    <div class="review-page-comment">
+                                        <h2>3 đánh giá</h2>
+                                        <ul>
+                                            <li>
+                                                <div class="product-comment mb-20">
+                                                    <img src="/view/layout/assets/images/user1.png" alt="">
+                                                    <div class="product-comment-content">
+                                                        <div class="product-reviews">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star-o"></i>
+                                                        </div>
+                                                        <p class="meta">
+                                                            <strong>Ngọc Huy</strong> - <span>November 22, 2018</span>
+                                                        <div class="description">
+                                                            <p>Sản phẩm tốt !</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-comment mb-20">
+                                                    <img src="./assets/images/user2.png" height="60px" alt="">
+                                                    <div class="product-comment-content">
+                                                        <div class="product-reviews">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </div>
+                                                        <p class="meta">
+                                                            <strong>Thạch Phát</strong> - <span>November 22, 2018</span>
+                                                        <div class="description">
+                                                            <p>Sản phẩm sử dụng ok !</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-comment mb-20">
+                                                    <img src="./assets/images/user3.png" alt="">
+                                                    <div class="product-comment-content">
+                                                        <div class="product-reviews">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </div>
+                                                        <p class="meta">
+                                                            <strong>Thái Lộc</strong> - <span>November 22, 2018</span>
+                                                        <div class="description">
+                                                            <p>Phù hợp với giá tiền !</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="review-form-wrapper">
+                                            <div class="review-form">
+                                                <span class="comment-reply-title">Thêm một bài đánh giá </span>
+                                                <form action="#">
+                                                    <p class="comment-notes">
+                                                    <div class="input-element">
+                                                        <div class="comment-form-comment">
+                                                            <label>Comment</label>
+                                                            <textarea name="message" cols="40" rows="8"></textarea>
+                                                        </div>
+                                                        <!-- <div class="review-comment-form-author">
+                                                            <label>Name </label>
+                                                            <input required="required" type="text">
+                                                        </div>
+                                                        <div class="review-comment-form-email">
+                                                            <label>Email </label>
+                                                            <input required="required" type="text">
+                                                        </div> -->
+                                                        <div class="comment-submit">
+                                                            <button type="submit" class="form-button">Submit</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Review And Description Tab Content End-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Product Description Review Section Start-->
+
+        <!--Product section start-->
+        <div class="product-section section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-65 pb-lg-45 pb-md-35 pb-sm-25 pb-xs-15">
+            <div class="container bg-white p-5 bdr-10">
+
+                <div class="row">
+                    <!-- Section Title Start -->
+                    <div class="col">
+                        <div class="section-title mb-40 mb-xs-20">
+                            <h2>Những sản phẩm tương tự</h2>
+                        </div>
+                    </div>
+                    <!-- Section Title End -->
+                </div>
+                <div class="row tf-element-carousel" data-slick-options='{
+                "slidesToShow": 4,
+                "slidesToScroll": 1,
+                "infinite": true,
+                "arrows": true,
+                "prevArrow": {"buttonClass": "slick-btn slick-prev", "iconClass": "fa fa-angle-left" },
+                "nextArrow": {"buttonClass": "slick-btn slick-next", "iconClass": "fa fa-angle-right" }
+                }' data-slick-responsive='[
+                {"breakpoint":1199, "settings": {
+                "slidesToShow": 3
+                }},
+                {"breakpoint":992, "settings": {
+                "slidesToShow": 2
+                }},
+                {"breakpoint":768, "settings": {
+                "slidesToShow": 2,
+                "arrows": false,
+                "autoplay": true
+                }},
+                {"breakpoint":576, "settings": {
+                "slidesToShow": 1,
+                "arrows": false,
+                "autoplay": true
+                }}
+                ]'>
+                    <div class="col-lg-3 px-3">
+                        <!-- Single Product Start -->
+                        <div class="single-product mb-30">
+                            <div class="product-img">
+                                <a href="single-product.html">
+                                    <img src="/view/layout/assets/images/sp1.jpg" alt="">
+                                </a>
+                                <span class="descount-sticker">-15%</span>
+                                <div class="product-action d-flex justify-content-between">
+                                    <a class="product-btn" href="#">Thêm vào giỏ</a>
+                                    <ul class="d-flex">
+                                        <li><a href="#quick-view-modal-container" data-toggle="modal"
+                                                title="Quick View"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-exchange"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <h3><a href="single-product.html">Giày Bóng Đá TQ Nike </a></h3>
+                                <h4 class="price"><span class="new">310.00 đ</span><span
+                                        class="old">430.00 đ</span></h4>
+                            </div>
+                        </div>
+                        <!-- Single Product End -->
+                    </div>
+                    <div class="col-lg-3 px-3">
+                        <!-- Single Product Start -->
+                        <div class="single-product mb-30">
+                            <div class="product-img">
+                                <a href="single-product.html">
+                                    <img src="/view/layout/assets/images/product/yeunhungdieukhonghoanhao.jpg" alt="">
+                                </a>
+                                <span class="descount-sticker">-10%</span>
+                                <div class="product-action d-flex justify-content-between">
+                                    <a class="product-btn" href="#">Thêm vào giỏ</a>
+                                    <ul class="d-flex">
+                                        <li><a href="#quick-view-modal-container" data-toggle="modal"
+                                                title="Quick View"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-exchange"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <h3><a href="single-product.html">Giày Bóng Đá Nike Lunar </a></h3>
+                                <h4 class="price"><span class="new">900.00 đ</span><span
+                                        class="old">1.130.000 đ</span></h4>
+                            </div>
+                        </div>
+                        <!-- Single Product End -->
+                    </div>
+                    <div class="col-lg-3 px-3">
+                        <!-- Single Product Start -->
+                        <div class="single-product mb-30">
+                            <div class="product-img">
+                                <a href="single-product.html">
+                                    <img src="./assets/images/product/muonkiepnhansinh1.jpeg" alt="">
+                                </a>
+                                <span class="descount-sticker">-10%</span>
+                                <div class="product-action d-flex justify-content-between">
+                                    <a class="product-btn" href="#">Thêm vào giỏ</a>
+                                    <ul class="d-flex">
+                                        <li><a href="#quick-view-modal-container" data-toggle="modal"
+                                                title="Quick View"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-exchange"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <h3><a href="single-product.html">Giày Bóng Đá Nike Tiempo</a></h3>
+                                <h4 class="price"><span class="new">710.00 đ</span><span
+                                        class="old">930.00 đ</span></h4>
+                            </div>
+                        </div>
+                        <!-- Single Product End -->
+                    </div>
+                    <div class="col-lg-3 px-3">
+                        <!-- Single Product Start -->
+                        <div class="single-product mb-30">
+                            <div class="product-img">
+                                <a href="single-product.html">
+                                    <img src="./assets/images/product/7.webp" alt="">
+                                </a>
+                                <span class="descount-sticker">-10%</span>
+                                <div class="product-action d-flex justify-content-between">
+                                    <a class="product-btn" href="#">Thêm vào giỏ</a>
+                                    <ul class="d-flex">
+                                        <li><a href="#quick-view-modal-container" data-toggle="modal"
+                                                title="Quick View"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-exchange"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <h3><a href="single-product.html">Giày Bóng Đá TQ Nike II</a></h3>
+                                <h4 class="price"><span class="new">610.00 đ</span><span
+                                        class="old">1.200.000 đ</span></h4>
+                            </div>
+                        </div>
+                        <!-- Single Product End -->
+                    </div>
+                    <div class="col-lg-3 px-3">
+                        <!-- Single Product Start -->
+                        <div class="single-product mb-30">
+                            <div class="product-img">
+                                <a href="single-product.html">
+                                    <img src="./assets/images/product/10.webp" alt="">
+                                </a>
+                                <span class="descount-sticker">-10%</span>
+                                <div class="product-action d-flex justify-content-between">
+                                    <a class="product-btn" href="#">Thêm vào giỏ</a>
+                                    <ul class="d-flex">
+                                        <li><a href="#quick-view-modal-container" data-toggle="modal"
+                                                title="Quick View"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-exchange"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <h3><a href="single-product.html">Giày Bóng Đá TQ Nike React</a></h3>
+                                <h4 class="price"><span class="new">710.00 đ</span><span
+                                        class="old">930.00 đ</span></h4>
+                            </div>
+                        </div>
+                        <!-- Single Product End -->
+                    </div>
+                    <div class="col-lg-3 px-3">
+                        <!-- Single Product Start -->
+                        <div class="single-product mb-30">
+                            <div class="product-img">
+                                <a href="single-product.html">
+                                    <img src="./assets/images/product/9.webp" alt="">
+                                </a>
+                                <span class="descount-sticker">-20%</span>
+                                <div class="product-action d-flex justify-content-between">
+                                    <a class="product-btn" href="#">Thêm vào giỏ</a>
+                                    <ul class="d-flex">
+                                        <li><a href="#quick-view-modal-container" data-toggle="modal"
+                                                title="Quick View"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-exchange"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <h3><a href="single-product.html">Giày Bóng Đá Wika NEO</a></h3>
+                                <h4 class="price"><span class="new">810.00 đ</span><span
+                                        class="old">1.130.000 đ</span></h4>
+                            </div>
+                        </div>
+                        <!-- Single Product End -->
+                    </div>
+                    <div class="col-lg-3 px-3">
+                        <!-- Single Product Start -->
+                        <div class="single-product mb-30">
+                            <div class="product-img">
+                                <a href="single-product.html">
+                                    <img src="./assets/images/product/11.webp" alt="">
+                                </a>
+                                <span class="descount-sticker">-20%</span>
+                                <div class="product-action d-flex justify-content-between">
+                                    <a class="product-btn" href="#">Thêm vào giỏ</a>
+                                    <ul class="d-flex">
+                                        <li><a href="#quick-view-modal-container" data-toggle="modal"
+                                                title="Quick View"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-exchange"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <h3><a href="single-product.html">Giày Bóng Đá Wika NEO I</a></h3>
+                                <h4 class="price"><span class="new">810.00 đ</span><span
+                                        class="old">1.130.000 đ</span></h4>
+                            </div>
+                        </div>
+                        <!-- Single Product End -->
+                    </div>
+                    <div class="col-lg-3 px-3">
+                        <!-- Single Product Start -->
+                        <div class="single-product mb-30">
+                            <div class="product-img">
+                                <a href="single-product.html">
+                                    <img src="./assets/images/product/3.webp" alt="">
+                                </a>
+                                <span class="descount-sticker">-15%</span>
+                                <div class="product-action d-flex justify-content-between">
+                                    <a class="product-btn" href="#">Thêm vào giỏ</a>
+                                    <ul class="d-flex">
+                                        <li><a href="#quick-view-modal-container" data-toggle="modal"
+                                                title="Quick View"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-exchange"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <h3><a href="single-product.html">Giày Bóng Đá TQ Nike </a></h3>
+                                <h4 class="price"><span class="new">310.00 đ</span><span
+                                        class="old">430.00 đ</span></h4>
+                            </div>
+                        </div>
+                        <!-- Single Product End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer-section section">
+
+            <!--Footer Top start-->
+            <div
+                class="footer-top section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-45 pb-lg-25 pb-md-15 pb-sm-5 pb-xs-0">
+                <div class="container">
+                    <div class="row row-25">
+
+                        <!--Footer Widget start-->
+                        <div class="footer-widget col-lg-4 col-md-6 col-sm-6 col-12 mb-40 mb-xs-35">
+                            <img src="/view/layout/assets/images/logo2.png" alt="" class="logo-footer">
+                            <div class="footer-social">
+                                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                                <a href="#" class="linkedin"><i class="fa fa-instagram"></i></a>
+                                <a href="#" class="pinterest"><i class="fa fa-pinterest-p"></i></a>
+                                <a href="#" class="pinterest"><i class="fa fa-vimeo"></i></a>
+                            </div>
+                        </div>
+                        <!--Footer Widget end-->
+
+                        <!--Footer Widget start-->
+                        <div class="footer-widget col-lg-4 col-md-6 col-sm-6 col-12 mb-40 mb-xs-35">
+                            <h4 class="title"><span class="text">Thể loại</span></h4>
+                            <ul class="ft-menu">
+                                <li><a href="#">New products</a></li>
+                                <li><a href="#">Top sellers</a></li>
+                                <li><a href="#">Specials</a></li>
+                                <li><a href="#">Manufacturers</a></li>
+                                <li><a href="#">Suppliers</a></li>
+                                <li><a href="#">Specials</a></li>
+                                <li><a href="#">Service</a></li>
+                            </ul>
+                        </div>
+                        <!--Footer Widget end-->
+
+                        <!--Footer Widget start-->
+                        <div class="footer-widget col-lg-4 col-md-6 col-sm-6 col-12 mb-40 mb-xs-35">
+                            <h4 class="title"><span class="text">Liên hệ</span></h4>
+                            <ul class="address">
+                                <li><i class="fa fa-home"></i><span>HH2 BacHa building, Tohuu Street Hanoi,
+                                        Vietnam</span>
+                                </li>
+                                <li><i class="fa fa-phone"></i><span><a href="#">(08) 123 456 7890</a></span></li>
+                                <li><i class="fa fa-envelope-o"></i><span><a href="#">yourmail@domain.com</a></span>
+                                </li>
+                            </ul>
+                            <div class="payment-box mt-15 mb-15">
+                                <a href="#"><img src="./assets/images/payment.png" alt=""></a>
+                            </div>
+                        </div>
+                        <!--Footer Widget end-->
+                    </div>
+                </div>
+            </div>
+            <!--Footer Top end-->
+
+            <!--Footer bottom start-->
+            <div class="footer-bottom section">
+                <div class="container ft-border pt-40 pt-xs-20 pb-xs-20">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-lg-6 col-md-6 col-sm-8">
+                            <div class="copyright text-left">
+                                <p>Copyright &copy;2019 <a href="#">Theface</a>. All rights reserved.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-4">
+                            <div class="footer-logo text-right">
+                                <a href="index.html"><img src="./assets/images/logo scb.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Footer bottom end-->
+        </footer>
+    </div>
+
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="/view/layout/assets/js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

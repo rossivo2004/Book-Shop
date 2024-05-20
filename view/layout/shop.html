@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/8c204d0fdf.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="assets/css/iconfont.min.css">
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <link rel="stylesheet" href="/view/layout/assets/css/cart.css">
+    <link rel="stylesheet" href="/view/layout/assets/css/login.css">
+    <link rel="stylesheet" href="/view/layout/assets/css/checkout.css">
+    <link rel="shortcut icon" href="./assets/images/logo scb.jpg" type="image/x-icon">
+    <link rel="icon" href="/view/layout/assets/images/logo-icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/helper.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Trang chủ</title>
+</head>
+
+<body>
+    <div id="main-wrapper">
+        <header class="header-transparent">
+            <div class="header">
+                <div class="header-bottom menu-right">
+                    <div class="container">
+                        <div class="row align-items-center">
+
+                            <!--Logo start-->
+                            <div class="col-lg-3 col-md-3 col-6 order-lg-1 order-md-1 order-1">
+                                <div class="logo">
+                                    <a href="index.html"><img src="/view/layout/assets/images/logo.png" width="80px"
+                                            alt="logo TG shop"></a>
+                                </div>
+                            </div>
+                            <!--Logo end-->
+
+                            <!--Menu start-->
+                            <div
+                                class="col-lg-6 col-md-6 col-12 order-lg-2 order-md-2 order-3 d-flex justify-content-center">
+                                <nav class="main-menu menu-box">
+                                    <ul class="my-0">
+                                        <li class="menu-boxs"><a href="index.html">Trang chủ</a>
+                                        </li>
+                                        <li class="menu-boxs"><a href="shop.html">Sản phẩm</a>
+                                        </li>
+                                        <li class="menu-boxs"><a href="blog.html">Blog</a>
+                                        </li>
+                                        <li class="menu-boxs"><a href="about.html">About Us</a></li>
+                                        <li class="menu-boxs"><a href="contact.html">Contact Us</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <!--Menu end-->
+
+                            <!--Search Cart Start-->
+                            <div
+                                class="col-lg-3 col-md-3 col-6 order-lg-3 order-md-3 order-2 d-flex justify-content-end">
+                                <div class="header-user">
+                                    <a href="">
+                                        <i class="fa-solid fa-user"></i>
+                                    </a>
+                                </div>
+                                <!-- <ul class="ht-us-menu d-flex my-2">
+                                    <li class=""><a href="#">
+                                        <img src="/view/layout/assets/images/user1.png" alt="" class="avatar-user">
+                                    </a>
+                                        <ul class="ht-dropdown right">
+                                            <li><p class="name-user">Chào mừng rossivo</p></li>
+                                            <li><a href="/view/layout/my-account.html">Thông tin tài khoản</a></li>
+                                            <li><a href="">Đăng xuất</a></li>
+                                        </ul>
+                                    </li>
+                                </ul> -->
+                                <div class="header-search">
+                                    <button class="header-search-toggle"><i class="fa fa-search"></i></button>
+                                    <div class="header-search-form">
+                                        <form action="#">
+                                            <input type="text" placeholder="Nhập thông tin tiềm kiếm ...">
+                                            <button><i class="fa fa-search"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="header-cart">
+                                    <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+                                    <!--Mini Cart Dropdown Start-->
+
+                                    <!--Mini Cart Dropdown End-->
+                                </div>
+                            </div>
+                            <!--Search Cart End-->
+                        </div>
+
+                        <!--Mobile Menu start-->
+                        <div class="row">
+                            <div class="col-12 d-flex d-lg-none">
+                                <div class="mobile-menu"></div>
+                            </div>
+                        </div>
+                        <!--Mobile Menu end-->
+                    </div>
+                </div>
+            </div>
+            <div class="header-tab-mobile">
+                <div class="row justify-content-center bg-main">
+                    <img src="/view/layout/assets/images/logo2.png" alt="" class="logo-tab_mobile">
+                </div>
+                <div class="row bg-main sticky-top">
+                    <div class="col-md-12 d-flex w-100 justify-content-between  px-4 py-4">
+                        <div class="offcanvas offcanvas-start" id="demo">
+                            <div class="offcanvas-header">
+                                <!-- <h1 class="offcanvas-title">Heading</h1> -->
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="menu-hiden">
+                                    <li><a href="">Trang chủ</a></li>
+                                    <li><a href="">Blog</a></li>
+                                    <li><a href="">Sản phẩm</a></li>
+                                    <li><a href="">Về chúng tôi</a></li>
+                                    <li><a href="">Liên hệ</a></li>
+                                </ul>
+                                <!-- <button class="btn btn-secondary" type="button">A Button</button> -->
+                            </div>
+                        </div>
+
+                        <!-- Button to open the offcanvas sidebar -->
+                        <div class="btn-open_menu__mobile">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#demo">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                        </div>
+
+                        <div class="input-search_mb">
+                            <form action="">
+                                <input type="text">
+                                <input type="submit" value="">
+                            </form>
+                        </div>
+                        <div class="control-tab_mobile">
+                            <a href=""><i class="fa-regular fa-user"></i></a>
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <div class="container-fluid">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Sản phẩm</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+<!-- <div class="container btn-cata_show py-2">
+    <button data-bs-toggle="collapse" data-bs-target="#cata-se" class="btn-main">Thể loại</button>
+
+<div id="cata-se" class="collapse">
+    <ul class="sidebar-list">
+        <li><a href="#"><i class="fa fa-angle-right"></i>Red <span class="count">(5)</span></a>
+        </li>
+        <li><a href="#"><i class="fa fa-angle-right"></i>Orange <span
+                    class="count">(4)</span></a></li>
+        <li><a href="#"><i class="fa fa-angle-right"></i>Blue <span class="count">(4)</span></a>
+        </li>
+        <li><a href="#"><i class="fa fa-angle-right"></i>Black <span
+                    class="count">(4)</span></a></li>
+        <li><a href="#"><i class="fa fa-angle-right"></i>Green <span
+                    class="count">(4)</span></a></li>
+    </ul>
+</div>
+</div> -->
+
+        <div
+            class="shop-section sectionx1 pb-70 pb-lg-50 pb-md-40 pb-sm-60 pb-xs-50">
+            <div class="container bg-white p-5 bdr-10">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <!-- Single Sidebar Start  -->
+                        <div class="common-sidebar-widget">
+                            <h3 class="sidebar-title">Thể loại</h3>
+                            <ul class="sidebar-list">
+                                <li><a href="#"><i class="fa fa-angle-right"></i>Red <span class="count">(5)</span></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>Orange <span
+                                            class="count">(4)</span></a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>Blue <span class="count">(4)</span></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>Black <span
+                                            class="count">(4)</span></a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>Green <span
+                                            class="count">(4)</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="common-sidebar-widget">
+                            <div class="single-banner">
+                                <a href="#">
+                                    <img src="/view/layout/assets/images/sp-banner.png" height="500px" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Single Sidebar End  -->
+                    </div>
+                    <div class="col-lg-9 order-lg-2 order-1">
+                        <!-- <div class="row">
+                            <div class="col-12">
+                                <div class="shop-banner mb-35 mb-xs-20">
+                                    <img src="./assets/images/banner/category-image.jpg" alt="">
+                                </div>
+                                <div class="shop-banner-title">
+                                    <h2>Shop</h2>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="shop-product">
+                                    <div id="myTabContent-2" class="tab-content">
+                                        <div id="grid" class="tab-pane fade active show">
+                                            <div class="product-grid-view">
+                                                <div class="row">
+                                                    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+                                                        <!-- Single Product Start -->
+                                                        <div class="single-product mb-30">
+                                                            <div class="product-img">
+                                                                <a href="single-product.html">
+                                                                    <img src="/view/layout/assets/images/sp1.jpg"
+                                                                        alt="">
+                                                                </a>
+                                                                <span class="descount-sticker">-10%</span>
+                                                                <span class="sticker">
+                                                                    <img src="/view/layout/assets/images/new.png"
+                                                                        alt="">
+                                                                </span>
+                                                                <div
+                                                                    class="product-action d-flex justify-content-between">
+                                                                    <a class="product-btn" href="#">thêm vào giỏ</a>
+                                                                    <ul class="d-flex align-items-center">
+                                                                        <li><a href="#quick-view-modal-container"
+                                                                                data-toggle="modal"
+                                                                                title="Quick View"><i
+                                                                                    class="fa fa-eye"></i></a></li>
+                                                                        <!-- <li><a href="#"><i
+                                                                                    class="fa fa-heart-o"></i></a></li>
+                                                                        <li><a href="#"><i
+                                                                                    class="fa fa-exchange"></i></a></li> -->
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="product-content">
+                                                                <h3><a href="single-product.html">Giày Bóng Đá Nike
+                                                                        Mercurial</a>
+                                                                </h3>
+                                                                <!-- <div class="ratting">
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                </div> -->
+                                                                <h4 class="price"><span
+                                                                        class="new">510.000<sup>đ</sup></span><span
+                                                                        class="old">630.000<sup>đ</sup></span></h4>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Single Product End -->
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+                                                        <!-- Single Product Start -->
+                                                        <div class="single-product mb-30">
+                                                            <div class="product-img">
+                                                                <a href="single-product.html">
+                                                                    <img src="/view/layout/assets/images/product/ngoinhakyquai.jpg"
+                                                                        alt="">
+                                                                </a>
+                                                                <span class="descount-sticker">-20%</span>
+                                                                <div
+                                                                    class="product-action d-flex justify-content-between">
+                                                                    <a class="product-btn" href="#">Thêm vào giỏ</a>
+                                                                    <ul class="d-flex">
+                                                                        <li><a href="#quick-view-modal-container"
+                                                                                data-toggle="modal"
+                                                                                title="Quick View"><i
+                                                                                    class="fa fa-eye"></i></a></li>
+                                                                        <li><a href="#"><i
+                                                                                    class="fa fa-heart-o"></i></a></li>
+                                                                        <li><a href="#"><i
+                                                                                    class="fa fa-exchange"></i></a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="product-content">
+                                                                <h3><a href="single-product.html">Giày Bóng Đá Wika NEO
+                                                                        Plus</a></h3>
+                                                                <!-- <div class="ratting">
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                </div> -->
+                                                                <h4 class="price"><span class="new">400.00 đ</span><span
+                                                                        class="old">730.00 đ</span></h4>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Single Product End -->
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+                                                        <!-- Single Product Start -->
+                                                        <div class="single-product mb-30">
+                                                            <div class="product-img">
+                                                                <a href="single-product.html">
+                                                                    <img src="/view/layout/assets/images/sp1.jpg"
+                                                                        alt="">
+                                                                </a>
+                                                                <span class="descount-sticker">-15%</span>
+                                                                <div
+                                                                    class="product-action d-flex justify-content-between">
+                                                                    <a class="product-btn" href="#">Thêm vào giỏ</a>
+                                                                    <ul class="d-flex">
+                                                                        <li><a href="#quick-view-modal-container"
+                                                                                data-toggle="modal"
+                                                                                title="Quick View"><i
+                                                                                    class="fa fa-eye"></i></a></li>
+                                                                        <li><a href="#"><i
+                                                                                    class="fa fa-heart-o"></i></a></li>
+                                                                        <li><a href="#"><i
+                                                                                    class="fa fa-exchange"></i></a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="product-content">
+                                                                <h3><a href="single-product.html">Giày Bóng Đá TQ Nike
+                                                                    </a></h3>
+                                                                <!-- <div class="ratting">
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                </div> -->
+                                                                <h4 class="price"><span class="new">310.00 đ</span><span
+                                                                        class="old">430.00 đ</span></h4>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Single Product End -->
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+                                                        <!-- Single Product Start -->
+                                                        <div class="single-product mb-30">
+                                                            <div class="product-img">
+                                                                <a href="single-product.html">
+                                                                    <img src="/view/layout/assets/images/sp1.jpg"
+                                                                        alt="">
+                                                                </a>
+                                                                <span class="descount-sticker">-10%</span>
+                                                                <div
+                                                                    class="product-action d-flex justify-content-between">
+                                                                    <a class="product-btn" href="#">Thêm vào giỏ</a>
+                                                                    <ul class="d-flex">
+                                                                        <li><a href="#quick-view-modal-container"
+                                                                                data-toggle="modal"
+                                                                                title="Quick View"><i
+                                                                                    class="fa fa-eye"></i></a></li>
+                                                                        <li><a href="#"><i
+                                                                                    class="fa fa-heart-o"></i></a></li>
+                                                                        <li><a href="#"><i
+                                                                                    class="fa fa-exchange"></i></a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="product-content">
+                                                                <h3><a href="single-product.html">Giày Bóng Đá Nike
+                                                                        Lunar </a></h3>
+                                                                <!-- <div class="ratting">
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                </div> -->
+                                                                <h4 class="price"><span class="new">900.00 đ</span><span
+                                                                        class="old">1.130.000 đ</span></h4>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Single Product End -->
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+                                                        <!-- Single Product Start -->
+                                                        <div class="single-product mb-30">
+                                                            <div class="product-img">
+                                                                <a href="single-product.html">
+                                                                    <img src="/view/layout/assets/images/sp1.jpg"
+                                                                        alt="">
+                                                                </a>
+                                                                <span class="descount-sticker">-10%</span>
+                                                                <div
+                                                                    class="product-action d-flex justify-content-between">
+                                                                    <a class="product-btn" href="#">Thêm vào giỏ</a>
+                                                                    <ul class="d-flex">
+                                                                        <li><a href="#quick-view-modal-container"
+                                                                                data-toggle="modal"
+                                                                                title="Quick View"><i
+                                                                                    class="fa fa-eye"></i></a></li>
+                                                                        <li><a href="#"><i
+                                                                                    class="fa fa-heart-o"></i></a></li>
+                                                                        <li><a href="#"><i
+                                                                                    class="fa fa-exchange"></i></a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="product-content">
+                                                                <h3><a href="single-product.html">Giày Bóng Đá Nike
+                                                                        Tiempo</a></h3>
+                                                                <!-- <div class="ratting">
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                </div> -->
+                                                                <h4 class="price"><span class="new">710.00 đ</span><span
+                                                                        class="old">930.00 đ</span></h4>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Single Product End -->
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+                                                        <!-- Single Product Start -->
+                                                        <div class="single-product mb-30">
+                                                            <div class="product-img">
+                                                                <a href="single-product.html">
+                                                                    <img src="/view/layout/assets/images/sp1.jpg"
+                                                                        alt="">
+                                                                </a>
+                                                                <span class="descount-sticker">-10%</span>
+                                                                <div
+                                                                    class="product-action d-flex justify-content-between">
+                                                                    <a class="product-btn" href="#">Thêm vào giỏ</a>
+                                                                    <ul class="d-flex">
+                                                                        <li><a href="#quick-view-modal-container"
+                                                                                data-toggle="modal"
+                                                                                title="Quick View"><i
+                                                                                    class="fa fa-eye"></i></a></li>
+                                                                        <li><a href="#"><i
+                                                                                    class="fa fa-heart-o"></i></a></li>
+                                                                        <li><a href="#"><i
+                                                                                    class="fa fa-exchange"></i></a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="product-content">
+                                                                <h3><a href="single-product.html">Giày Bóng Đá TQ Nike
+                                                                        II</a></h3>
+                                                                <!-- <div class="ratting">
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                </div> -->
+                                                                <h4 class="price"><span class="new">610.00 đ</span><span
+                                                                        class="old">1.200.000 đ</span></h4>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Single Product End -->
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+                                                        <!-- Single Product Start -->
+                                                        <div class="single-product mb-30">
+                                                            <div class="product-img">
+                                                                <a href="single-product.html">
+                                                                    <img src="./view/layout/assets/images/sp1.jpg"
+                                                                        alt="">
+                                                                </a>
+                                                                <span class="descount-sticker">-10%</span>
+                                                                <div
+                                                                    class="product-action d-flex justify-content-between">
+                                                                    <a class="product-btn" href="#">Thêm vào giỏ</a>
+                                                                    <ul class="d-flex">
+                                                                        <li><a href="#quick-view-modal-container"
+                                                                                data-toggle="modal"
+                                                                                title="Quick View"><i
+                                                                                    class="fa fa-eye"></i></a></li>
+                                                                        <li><a href="#"><i
+                                                                                    class="fa fa-heart-o"></i></a></li>
+                                                                        <li><a href="#"><i
+                                                                                    class="fa fa-exchange"></i></a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="product-content">
+                                                                <h3><a href="single-product.html">Giày Bóng Đá TQ Nike
+                                                                        React</a></h3>
+                                                                <!-- <div class="ratting">
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                </div> -->
+                                                                <h4 class="price"><span class="new">710.00 đ</span><span
+                                                                        class="old">930.00 đ</span></h4>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Single Product End -->
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+                                                        <!-- Single Product Start -->
+                                                        <div class="single-product mb-30">
+                                                            <div class="product-img">
+                                                                <a href="single-product.html">
+                                                                    <img src="/view/layout/assets/images/sp1.jpg"
+                                                                        alt="">
+                                                                </a>
+                                                                <span class="descount-sticker">-20%</span>
+                                                                <div
+                                                                    class="product-action d-flex justify-content-between">
+                                                                    <a class="product-btn" href="#">Thêm vào giỏ</a>
+                                                                    <ul class="d-flex">
+                                                                        <li><a href="#quick-view-modal-container"
+                                                                                data-toggle="modal"
+                                                                                title="Quick View"><i
+                                                                                    class="fa fa-eye"></i></a></li>
+                                                                        <li><a href="#"><i
+                                                                                    class="fa fa-heart-o"></i></a></li>
+                                                                        <li><a href="#"><i
+                                                                                    class="fa fa-exchange"></i></a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="product-content">
+                                                                <h3><a href="single-product.html">Giày Bóng Đá Wika
+                                                                        NEO</a></h3>
+                                                                <!-- <div class="ratting">
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                </div> -->
+                                                                <h4 class="price"><span class="new">810.00 đ</span><span
+                                                                        class="old">1.130.000 đ</span></h4>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Single Product End -->
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+                                                        <!-- Single Product Start -->
+                                                        <div class="single-product mb-30">
+                                                            <div class="product-img">
+                                                                <a href="single-product.html">
+                                                                    <img src="./view/layout/assets/images/sp1.jpg"
+                                                                        alt="">
+                                                                </a>
+                                                                <span class="descount-sticker">-20%</span>
+                                                                <div
+                                                                    class="product-action d-flex justify-content-between">
+                                                                    <a class="product-btn" href="#">Thêm vào giỏ</a>
+                                                                    <ul class="d-flex">
+                                                                        <li><a href="#quick-view-modal-container"
+                                                                                data-toggle="modal"
+                                                                                title="Quick View"><i
+                                                                                    class="fa fa-eye"></i></a></li>
+                                                                        <li><a href="#"><i
+                                                                                    class="fa fa-heart-o"></i></a></li>
+                                                                        <li><a href="#"><i
+                                                                                    class="fa fa-exchange"></i></a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="product-content">
+                                                                <h3><a href="single-product.html">Giày Bóng Đá Wika NEO
+                                                                        I</a></h3>
+                                                                <!-- <div class="ratting">
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                </div> -->
+                                                                <h4 class="price"><span class="new">810.00 đ</span><span
+                                                                        class="old">1.130.000 đ</span></h4>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Single Product End -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <div id="list" class="tab-pane fade">
+                                            <div class="product-list-view">
+                                                
+                                                <div class="product-list-item mb-40">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-md-4 col-sm-6">
+                                                            <div class="single-product">
+                                                                <div class="product-img mb-0 mb-xs-25">
+                                                                    <a href="single-product.html">
+                                                                        <img src="./assets/images/product/product-18.jpg"
+                                                                            alt="">
+                                                                    </a>
+                                                                    <span class="descount-sticker">-10%</span>
+                                                                    <span class="sticker">New</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-8 col-sm-6">
+                                                            <div class="product-content-shop-list">
+                                                                <div class="product-content">
+                                                                    <h3><a href="single-product.html">White Shave
+                                                                            Brux</a></h3>
+                                                                    <h4 class="price"><span class="new">€90.00</span>
+                                                                    </h4>
+                                                                    <div class="ratting">
+                                                                        <i class="fa fa-star"></i>
+                                                                        <i class="fa fa-star"></i>
+                                                                        <i class="fa fa-star"></i>
+                                                                        <i class="fa fa-star"></i>
+                                                                        <i class="fa fa-star"></i>
+                                                                    </div>
+                                                                    <p>Pellentesque habitant morbi tristique senectus et
+                                                                        netus et malesuada fames ac turpis egestas.
+                                                                        Vestibulum tortor quam, feugiat vitae, ultricies
+                                                                        eget, tempor sit amet, ante. Donec eu libero sit
+                                                                        amet quam egestas semper. Aenean ultricies mi
+                                                                        vitae est. Mauris placerat eleifend leo.</p>
+                                                                    <div
+                                                                        class="product-action d-flex justify-content-between">
+                                                                        <a class="product-btn" href="#">Add to Cart</a>
+                                                                        <ul class="d-flex">
+                                                                            <li><a href="#quick-view-modal-container"
+                                                                                    data-toggle="modal"
+                                                                                    title="Quick View"><i
+                                                                                        class="fa fa-eye"></i></a></li>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa fa-heart-o"></i></a>
+                                                                            </li>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa fa-exchange"></i></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                                <div class="product-list-item mb-40">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-md-4 col-sm-6">
+                                                            <div class="single-product">
+                                                                <div class="product-img mb-0 mb-xs-25">
+                                                                    <a href="single-product.html">
+                                                                        <img src="./assets/images/product/product-17.jpg"
+                                                                            alt="">
+                                                                    </a>
+                                                                    <span class="descount-sticker">-10%</span>
+                                                                    <span class="sticker">New</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-8 col-sm-6">
+                                                            <div class="product-content-shop-list">
+                                                                <div class="product-content">
+                                                                    <h3><a href="single-product.html">Aftershave
+                                                                            Lotion</a></h3>
+                                                                    <h4 class="price"><span
+                                                                            class="new">€90.00</span><span
+                                                                            class="old">€150.00</span></h4>
+                                                                    <div class="ratting">
+                                                                        <i class="fa fa-star"></i>
+                                                                        <i class="fa fa-star"></i>
+                                                                        <i class="fa fa-star"></i>
+                                                                        <i class="fa fa-star"></i>
+                                                                        <i class="fa fa-star"></i>
+                                                                    </div>
+                                                                    <p>Pellentesque habitant morbi tristique senectus et
+                                                                        netus et malesuada fames ac turpis egestas.
+                                                                        Vestibulum tortor quam, feugiat vitae, ultricies
+                                                                        eget, tempor sit amet, ante. Donec eu libero sit
+                                                                        amet quam egestas semper. Aenean ultricies mi
+                                                                        vitae est. Mauris placerat eleifend leo.</p>
+                                                                    <div
+                                                                        class="product-action d-flex justify-content-between">
+                                                                        <a class="product-btn" href="#">Add to Cart</a>
+                                                                        <ul class="d-flex">
+                                                                            <li><a href="#quick-view-modal-container"
+                                                                                    data-toggle="modal"
+                                                                                    title="Quick View"><i
+                                                                                        class="fa fa-eye"></i></a></li>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa fa-heart-o"></i></a>
+                                                                            </li>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa fa-exchange"></i></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                                <div class="product-list-item mb-40">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-md-4 col-sm-6">
+                                                            <div class="single-product">
+                                                                <div class="product-img mb-0 mb-xs-25">
+                                                                    <a href="single-product.html">
+                                                                        <img src="./assets/images/product/product-15.jpg"
+                                                                            alt="">
+                                                                    </a>
+                                                                    <span class="descount-sticker">-10%</span>
+                                                                    <span class="sticker">New</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-8 col-sm-6">
+                                                            <div class="product-content-shop-list">
+                                                                <div class="product-content">
+                                                                    <h3><a href="single-product.html">White Shave
+                                                                            Brush</a></h3>
+                                                                    <h4 class="price"><span
+                                                                            class="new">€110.00</span><span
+                                                                            class="old">€130.00</span></h4>
+                                                                    <div class="ratting">
+                                                                        <i class="fa fa-star"></i>
+                                                                        <i class="fa fa-star"></i>
+                                                                        <i class="fa fa-star"></i>
+                                                                        <i class="fa fa-star"></i>
+                                                                        <i class="fa fa-star"></i>
+                                                                    </div>
+                                                                    <p>Pellentesque habitant morbi tristique senectus et
+                                                                        netus et malesuada fames ac turpis egestas.
+                                                                        Vestibulum tortor quam, feugiat vitae, ultricies
+                                                                        eget, tempor sit amet, ante. Donec eu libero sit
+                                                                        amet quam egestas semper. Aenean ultricies mi
+                                                                        vitae est. Mauris placerat eleifend leo.</p>
+                                                                    <div
+                                                                        class="product-action d-flex justify-content-between">
+                                                                        <a class="product-btn" href="#">Add to Cart</a>
+                                                                        <ul class="d-flex">
+                                                                            <li><a href="#quick-view-modal-container"
+                                                                                    data-toggle="modal"
+                                                                                    title="Quick View"><i
+                                                                                        class="fa fa-eye"></i></a></li>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa fa-heart-o"></i></a>
+                                                                            </li>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa fa-exchange"></i></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                                <div class="product-list-item mb-40">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-md-4 col-sm-6">
+                                                            <div class="single-product">
+                                                                <div class="product-img mb-0 mb-xs-25">
+                                                                    <a href="single-product.html">
+                                                                        <img src="./assets/images/product/product-12.jpg"
+                                                                            alt="">
+                                                                    </a>
+                                                                    <span class="descount-sticker">-10%</span>
+                                                                    <span class="sticker">New</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-8 col-sm-6">
+                                                            <div class="product-content-shop-list">
+                                                                <div class="product-content">
+                                                                    <h3><a href="single-product.html">White Shave
+                                                                            Bruj</a></h3>
+                                                                    <h4 class="price"><span class="new">€80.00</span>
+                                                                    </h4>
+                                                                    <div class="ratting">
+                                                                        <i class="fa fa-star"></i>
+                                                                        <i class="fa fa-star"></i>
+                                                                        <i class="fa fa-star"></i>
+                                                                        <i class="fa fa-star"></i>
+                                                                        <i class="fa fa-star"></i>
+                                                                    </div>
+                                                                    <p>Pellentesque habitant morbi tristique senectus et
+                                                                        netus et malesuada fames ac turpis egestas.
+                                                                        Vestibulum tortor quam, feugiat vitae, ultricies
+                                                                        eget, tempor sit amet, ante. Donec eu libero sit
+                                                                        amet quam egestas semper. Aenean ultricies mi
+                                                                        vitae est. Mauris placerat eleifend leo.</p>
+                                                                    <div
+                                                                        class="product-action d-flex justify-content-between">
+                                                                        <a class="product-btn" href="#">Add to Cart</a>
+                                                                        <ul class="d-flex">
+                                                                            <li><a href="#quick-view-modal-container"
+                                                                                    data-toggle="modal"
+                                                                                    title="Quick View"><i
+                                                                                        class="fa fa-eye"></i></a></li>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa fa-heart-o"></i></a>
+                                                                            </li>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa fa-exchange"></i></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                                <div class="product-list-item mb-40">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-md-4 col-sm-6">
+                                                            <div class="single-product">
+                                                                <div class="product-img mb-0 mb-xs-25">
+                                                                    <a href="single-product.html">
+                                                                        <img src="./assets/images/product/product-13.jpg"
+                                                                            alt="">
+                                                                    </a>
+                                                                    <span class="descount-sticker">-10%</span>
+                                                                    <span class="sticker">New</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-8 col-sm-6">
+                                                            <div class="product-content-shop-list">
+                                                                <div class="product-content">
+                                                                    <h3><a href="single-product.html">White Shave
+                                                                            Bruk</a></h3>
+                                                                    <h4 class="price"><span class="new">€60.00</span>
+                                                                    </h4>
+                                                                    <div class="ratting">
+                                                                        <i class="fa fa-star"></i>
+                                                                        <i class="fa fa-star"></i>
+                                                                        <i class="fa fa-star"></i>
+                                                                        <i class="fa fa-star"></i>
+                                                                        <i class="fa fa-star"></i>
+                                                                    </div>
+                                                                    <p>Pellentesque habitant morbi tristique senectus et
+                                                                        netus et malesuada fames ac turpis egestas.
+                                                                        Vestibulum tortor quam, feugiat vitae, ultricies
+                                                                        eget, tempor sit amet, ante. Donec eu libero sit
+                                                                        amet quam egestas semper. Aenean ultricies mi
+                                                                        vitae est. Mauris placerat eleifend leo.</p>
+                                                                    <div
+                                                                        class="product-action d-flex justify-content-between">
+                                                                        <a class="product-btn" href="#">Add to Cart</a>
+                                                                        <ul class="d-flex">
+                                                                            <li><a href="#quick-view-modal-container"
+                                                                                    data-toggle="modal"
+                                                                                    title="Quick View"><i
+                                                                                        class="fa fa-eye"></i></a></li>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa fa-heart-o"></i></a>
+                                                                            </li>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa fa-exchange"></i></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-30 mb-sm-40 mb-xs-30">
+                            <div class="col">
+                                <ul class="page-pagination">
+                                    <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                                    <li class="active"><a href="#">01</a></li>
+                                    <li><a href="#">02</a></li>
+                                    <li><a href="#">03</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="brand">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img src="/view/layout/assets/images/brand1.png" alt="" class="brand-img">
+                    </div>
+                    <div class="col">
+                        <img src="/view/layout/assets/images/brand2.png" alt="" class="brand-img">
+                    </div>
+                    <div class="col">
+                        <img src="/view/layout/assets/images/brand3.png" alt="" class="brand-img">
+                    </div>
+                    <div class="col">
+                        <img src="/view/layout/assets/images/brand4.png" alt="" class="brand-img">
+                    </div>
+                    <div class="col">
+                        <img src="/view/layout/assets/images/brand5.png" alt="" class="brand-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer-section section">
+
+            <!--Footer Top start-->
+            <div
+                class="footer-top section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-45 pb-lg-25 pb-md-15 pb-sm-5 pb-xs-0">
+                <div class="container">
+                    <div class="row row-25">
+
+                        <!--Footer Widget start-->
+                        <div class="footer-widget col-lg-4 col-md-6 col-sm-6 col-12 mb-40 mb-xs-35">
+                            <img src="/view/layout/assets/images/logo2.png" alt="" class="logo-footer">
+                            <div class="footer-social">
+                                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                                <a href="#" class="linkedin"><i class="fa fa-instagram"></i></a>
+                                <a href="#" class="pinterest"><i class="fa fa-pinterest-p"></i></a>
+                                <a href="#" class="pinterest"><i class="fa fa-vimeo"></i></a>
+                            </div>
+                        </div>
+                        <!--Footer Widget end-->
+
+                        <!--Footer Widget start-->
+                        <div class="footer-widget col-lg-4 col-md-6 col-sm-6 col-12 mb-40 mb-xs-35">
+                            <h4 class="title"><span class="text">Thể loại</span></h4>
+                            <ul class="ft-menu">
+                                <li><a href="#">New products</a></li>
+                                <li><a href="#">Top sellers</a></li>
+                                <li><a href="#">Specials</a></li>
+                                <li><a href="#">Manufacturers</a></li>
+                                <li><a href="#">Suppliers</a></li>
+                                <li><a href="#">Specials</a></li>
+                                <li><a href="#">Service</a></li>
+                            </ul>
+                        </div>
+                        <!--Footer Widget end-->
+
+                        <!--Footer Widget start-->
+                        <div class="footer-widget col-lg-4 col-md-6 col-sm-6 col-12 mb-40 mb-xs-35">
+                            <h4 class="title"><span class="text">Liên hệ</span></h4>
+                            <ul class="address">
+                                <li><i class="fa fa-home"></i><span>HH2 BacHa building, Tohuu Street Hanoi,
+                                        Vietnam</span>
+                                </li>
+                                <li><i class="fa fa-phone"></i><span><a href="#">(08) 123 456 7890</a></span></li>
+                                <li><i class="fa fa-envelope-o"></i><span><a href="#">yourmail@domain.com</a></span>
+                                </li>
+                            </ul>
+                            <div class="payment-box mt-15 mb-15">
+                                <a href="#"><img src="./assets/images/payment.png" alt=""></a>
+                            </div>
+                        </div>
+                        <!--Footer Widget end-->
+                    </div>
+                </div>
+            </div>
+            <!--Footer Top end-->
+
+            <!--Footer bottom start-->
+            <div class="footer-bottom section">
+                <div class="container ft-border pt-40 pt-xs-20 pb-xs-20">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-lg-6 col-md-6 col-sm-8">
+                            <div class="copyright text-left">
+                                <p>Copyright &copy;2019 <a href="#">Theface</a>. All rights reserved.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-4">
+                            <div class="footer-logo text-right">
+                                <a href="index.html"><img src="./assets/images/logo scb.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Footer bottom end-->
+        </footer>
+    </div>
+
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="/view/layout/assets/js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
